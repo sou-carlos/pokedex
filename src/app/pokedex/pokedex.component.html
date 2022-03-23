@@ -1,0 +1,13 @@
+<section class="container">
+  <h2 class="title">Pokedex</h2>
+
+  <ul *ngFor="let pokemon of pokemons" class="lista">
+    <li> Número: {{pokemon.id}} </li>
+    <li> Nome: {{pokemon.nome}} </li>
+    <li> Tipo: {{pokemon.tipoPrimario}}  </li>
+    <li *ngIf="pokemon.tipoSecundario?.length > 0; else vazio " > Tipo: {{pokemon?.tipoSecundario}}  </li>
+  </ul>
+</section>
+
+<ng-template #vazio>
+</ng-template>

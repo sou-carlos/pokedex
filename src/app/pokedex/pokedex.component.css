@@ -1,0 +1,17 @@
+.container{
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.title{
+  text-transform: capitalize;
+  color: rgb(255, 238, 7);
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.lista{
+  background-color: aliceblue;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}

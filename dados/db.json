@@ -1,0 +1,22 @@
+{
+  "pokemons": [
+    {
+      "id": "001",
+      "nome": "Bulbasaur",
+      "tipoPrimario": "grass",
+      "tipoSecundario": "poison"
+    },
+    {
+      "id": "004",
+      "nome": "Charmander",
+      "tipoPrimario": "fire",
+      "tipoSecundario": ""
+    },
+    {
+      "id": "007",
+      "nome": "Squirtle",
+      "tipoPrimario": "water",
+      "tipoSecundario": ""
+    }
+  ]
+}
