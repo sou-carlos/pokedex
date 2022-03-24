@@ -1,20 +1,65 @@
 {
   "pokemons": [
     {
+      "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
       "id": "001",
       "nome": "Bulbasaur",
       "tipoPrimario": "grass",
       "tipoSecundario": "poison"
     },
     {
+      "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+      "id": "002",
+      "nome": "Ivysaur",
+      "tipoPrimario": "grass",
+      "tipoSecundario": "poison"
+    },
+    {
+      "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+      "id": "003",
+      "nome": "Venusaur",
+      "tipoPrimario": "grass",
+      "tipoSecundario": "poison"
+    },
+    {
+      "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
       "id": "004",
       "nome": "Charmander",
       "tipoPrimario": "fire",
       "tipoSecundario": ""
     },
     {
+      "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+      "id": "005",
+      "nome": "Charmeleon",
+      "tipoPrimario": "fire",
+      "tipoSecundario": ""
+    },
+    {
+      "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+      "id": "006",
+      "nome": "Charizard",
+      "tipoPrimario": "fire",
+      "tipoSecundario": "flying"
+    },
+    {
+      "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
       "id": "007",
       "nome": "Squirtle",
+      "tipoPrimario": "water",
+      "tipoSecundario": ""
+    },
+    {
+      "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+      "id": "008",
+      "nome": "Wartortle",
+      "tipoPrimario": "water",
+      "tipoSecundario": ""
+    },
+    {
+      "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+      "id": "009",
+      "nome": "Blastoise",
       "tipoPrimario": "water",
       "tipoSecundario": ""
     }

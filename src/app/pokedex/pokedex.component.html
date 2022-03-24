@@ -2,6 +2,7 @@
   <h2 class="title">Pokedex</h2>
 
   <ul *ngFor="let pokemon of pokemons" class="lista">
+    <img [src]="pokemon.imagem" class="img__pokemon">
     <li> Número: {{pokemon.id}} </li>
     <li> Nome: {{pokemon.nome}} </li>
     <li> Tipo: {{pokemon.tipoPrimario}}  </li>

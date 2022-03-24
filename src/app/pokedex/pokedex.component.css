@@ -1,12 +1,12 @@
 .container{
   margin: 0 auto;
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
 }
 
 .title{
   text-transform: capitalize;
   color: rgb(255, 238, 7);
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(45, 59, 105);
   padding: 20px;
 }
 
@@ -14,4 +14,8 @@
   background-color: aliceblue;
   padding: 20px;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.img__pokemon{
+  width: 100px;
 }
