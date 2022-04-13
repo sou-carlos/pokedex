@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { PokedexComponent } from './pokedex/pokedex.component';
+import { PokemonTypeDirective } from './diretivas/pokemon-type.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PokedexComponent
+    PokedexComponent,
+    PokemonTypeDirective
   ],
   imports: [
     BrowserModule,

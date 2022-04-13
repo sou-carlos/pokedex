@@ -5,8 +5,16 @@
     <img [src]="pokemon.imagem" class="img__pokemon">
     <li> Número: {{pokemon.id}} </li>
     <li> Nome: {{pokemon.nome}} </li>
-    <li> Tipo: {{pokemon.tipoPrimario}}  </li>
-    <li *ngIf="pokemon.tipoSecundario?.length > 0; else vazio " > Tipo: {{pokemon?.tipoSecundario}}  </li>
+    <li> Tipo:
+      <span [PokemonType]="pokemon.tipoPrimario">
+        {{pokemon.tipoPrimario}}
+      </span>
+    </li>
+    <li *ngIf="pokemon.tipoSecundario?.length > 0; else vazio " > Tipo:
+      <span [PokemonType]="pokemon.tipoSecundario">
+        {{pokemon?.tipoSecundario}}
+      </span>
+    </li>
   </ul>
 </section>
 
